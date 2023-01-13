@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formParabens{
+    background-image: url('../img/Forma4.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto; 
+}
+.formParabens-container{
+    border-radius: 50%;    
+    background-color: #FFF;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.formParabens-container .danceGif{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formParabens-container .danceGif img{
+    width: 25vw;
+}
+
+.formParabens-container span{
+    font-weight: 600;
+}

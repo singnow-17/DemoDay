@@ -1,0 +1,17 @@
+.edit-capa {
+    position: absolute;
+    width: 30px;
+    right: 10%;
+    top: 84px;
+}
+
+.perfil .edit {
+    position: absolute;
+    top: 283px;
+    left: 26%;
+    z-index: 10;
+}
+
+.foto {
+    position: relative;
+}

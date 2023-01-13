@@ -1,0 +1,15 @@
+.form-titulo{
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.form-tituloCard{
+  font-weight: bold;
+  margin-right: 47px ;
+
+}
+
+.formCadastroCard .formArtista{
+  margin-top: 30px;
+}

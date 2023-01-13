@@ -1,0 +1,30 @@
+.termos {
+    margin-top: 30px;
+    text-align: justify;
+    overflow-y:scroll;
+    height: 10vw;
+    background: #F8F8F8;
+    padding: 10px;
+    overflow: auto;
+}
+label {
+ margin-left: 10px;
+
+} 
+input {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    accent-color: #FA9201;
+}
+
+.priv {
+    color: #2400FF;
+}
+
+.bnt-cont{
+    text-decoration: none;
+    color: #221618;
+}

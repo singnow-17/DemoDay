@@ -1,0 +1,58 @@
+.formGenero{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+ul.boxs-container{
+    list-style: none;
+}
+
+ul.boxs-container li{
+    display: inline;
+}
+
+ul.boxs-container li label{
+    display: inline-block;
+    background-color: #F0F1F5;
+    color: #000;
+    font-weight: 500;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+ul.boxs-container li label:hover{
+    background-color: #FA9201;
+}
+
+ul.boxs-container li input[type="checkbox"]:checked+label{
+    background-color: #FA9201;
+    color: #000;
+    transition: all .2s;
+}
+
+ul.boxs-container li input[type="checkbox"]{
+    display: absolute;
+    position: absolute;
+    opacity: 0;
+}
+
+ul li{
+    padding: 10px 4px;
+}
+
+.informacao{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+}
+

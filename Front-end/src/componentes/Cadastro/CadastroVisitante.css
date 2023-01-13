@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.containerForm{
+    background-image: url('../img/Teste.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: bottom right;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto; 
+    background-color: #F0F1F5;
+}
+
+.containerForm .formCadastroCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    width: 500px;
+    height: 55%;
+    margin: 100px 50px;
+    background-color: #FFF;
+}
+
+.containerForm .formCadastroCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.containerForm .formCadastroCard .form-titulo{
+    margin-top: 30px;
+}
+
+.buttons .btn-cadastrar{
+    color: var(--cubos);
+    background: var(--primary);
+    font-weight: 500;
+    padding: 5px ;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    width: 110px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.formCadastroCard .formulario{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.buttons .btn-cadastrar:hover{
+    transform: scale(1.04);
+    background: var(--primary);
+}
+
+.formCadastroCard .msgErro {
+    display: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.formCadastroCard .msgErro.hide {
+    display: none;
+}
+
+.formCadastroCard .msgErro.show {
+    display: flex;
+}
+
+.formCadastroCard .msgText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.polt{
+    display: block;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+/*Váriaveis de cores */
+:root{
+    --primary:#FA9201;
+    --cubos:#221618;
+}

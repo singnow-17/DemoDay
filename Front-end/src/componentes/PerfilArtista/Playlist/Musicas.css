@@ -1,0 +1,10 @@
+.musicas {
+    height: 50px
+}
+
+.musicas .edit-musicas {
+    position: absolute;
+    right: 180px;
+    top: 1320px;
+    font-size: large;
+}

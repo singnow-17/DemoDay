@@ -1,0 +1,13 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slide {
+    transform: scale(0.5);
+    transition: transform 300ms;
+    opacity: 0.4;
+}
+
+.activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+}

@@ -1,0 +1,120 @@
+.container-cad{
+    background-image: url('../img/Teste.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: bottom right;
+    height: 100vh;
+    background-color: #F0F1F5;
+    font-family: 'Montserrat';
+}
+
+.container-cad .conteudo-cad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-cad .conteudo-cad .etapas{
+    margin-top: 20px;
+}
+
+.conteudo-cad .form{
+    background: rgb(255, 255, 255);
+    padding: 10px 20px;    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-titulo{
+    font-weight: bold;
+    text-align: center;
+}
+
+.form .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form .btn-voltar{
+    background-color: #F0F1F5;
+    color: var(--cubos);
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form .btn-continuar{
+    color: var(--cubos);
+    background: var(--primary);
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    width: 110px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form .btn-voltar:hover{
+    transform: scale(1.04);
+}
+
+.form .btn-continuar:hover{
+    transform: scale(1.04);
+    background: var(--primary);
+}
+
+.formCadastro{
+    margin-top: 30px;
+}
+
+.conteudo-cad .form .msgErro {
+    display: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-cad .form .msgErro.hide {
+    display: none;
+}
+
+.conteudo-cad .form .msgErro.show {
+    display: flex;
+}
+
+.conteudo-cad .form .msgText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+/*Váriaveis de cores */
+:root{
+    --primary:#FA9201;
+    --cubos:#221618;
+}
