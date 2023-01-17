@@ -1,7 +1,7 @@
 
 <!--Header-->
 <div align="center"> 
-  <img src="ImagensSingNow/logo.png" height="350">
+  <a href="https://linktr.ee/SingNow?utm_source=linktree_profile_share&ltsid=39db3f8c-a58a-4bce-bd79-f3c069d0c97e" target="_blank" ><img src="ImagensSingNow/logo.png" height="350"></a>
   <br>
   <br>
     <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=6000&color=FA9201&center=true&vCenter=true&width=500&lines=SingNow%2C+Mostre+seu+potencial!">
